@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "631760308992",
+    "firebase_url": "https://fafs-abb62.firebaseio.com",
+    "project_id": "fafs-abb62",
+    "storage_bucket": "fafs-abb62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631760308992:android:11e453d172a9e597fb41e5",
+        "android_client_info": {
+          "package_name": "com.androidaura.fafscallapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631760308992-2faso3o80trp4h8bnd06hem6t9o5isht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC22NAPbP6XFYUe5s3RY4hkKBvlDIBN5Y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631760308992-2faso3o80trp4h8bnd06hem6t9o5isht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

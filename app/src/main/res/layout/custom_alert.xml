@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_submitreport"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Call Status"/>
+
+    <View android:id="@+id/titleDivider"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/colorgrey" />
+
+    <RadioGroup
+        android:id="@+id/radioCallStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/interested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interested"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/notinterested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notinterested"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/ringing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ringing"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/wrongnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wrongnumber"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+
+
+
+    <Button
+        android:id="@+id/ph_submit"
+        android:text="Submit Report"
+        android:textColor="@color/colorwhite"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/submit_button"
+        android:shadowColor="#ffad33"
+        android:layout_margin="2dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fifth Avenue</string>
+    <string name="Ruchika">Ruchika</string>
+    <string name="Suyash">Suyash</string>
+    <string name="Saurabh">Saurabh</string>
+
+    <string name="interested">Interested</string>
+    <string name="notinterested">Not Interested</string>
+    <string name="ringing">Ringing</string>
+    <string name="wrongnumber">Wrong Number</string>
+
+</resources>
